@@ -51,7 +51,7 @@
                     <li class=""><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
                     <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
                     <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                     <li><a href="#Certificates"><i class="bx bx-file-blank"></i> <span>Certificates</span></a></li>
+                     {{-- <li><a href="#Certificates"><i class="bx bx-file-blank"></i> <span>Certificates</span></a></li> --}}
                     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
                     <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
@@ -106,8 +106,8 @@
                         <div>
                             <ul class="row">
                                 <li class="col-lg-6"><i class="icofont-rounded-right"></i> <strong>Birthday :</strong> {{$AboutusSetup->dob}}</li>
-                                <li class="col-lg-6"><i class="icofont-rounded-right"></i> <strong>Email :</strong> {{$PersonalSetup->emailid}}</li>
-                                <li class="col-lg-5"><i class="icofont-rounded-right"></i> <strong>Mobile :</strong> {{$PersonalSetup->mobile}}</li>
+                                <li class="col-lg-6"><i class="icofont-rounded-right"></i> <strong>Email :</strong> <a href="mailto:{{$PersonalSetup->emailid}}">{{$PersonalSetup->emailid}}</a></li>
+                                <li class="col-lg-5"><i class="icofont-rounded-right"></i> <strong>Mobile :</strong> <a href="tel:{{$PersonalSetup->mobile}}">{{$PersonalSetup->mobile}}</a> </li>
 
 
 
