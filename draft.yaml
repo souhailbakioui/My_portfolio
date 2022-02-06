@@ -1,0 +1,8 @@
+models:
+  Basic_setup:
+    title: string:400
+    description: string:400
+    keyword: string:400
+    icon: string:400
+
+

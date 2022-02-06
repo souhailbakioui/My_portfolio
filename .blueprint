@@ -1,0 +1,14 @@
+created:
+    - database/factories/BasicSetupFactory.php
+    - database/migrations/2022_01_26_163540_create_basic_setups_table.php
+    - app/Models/Basic_setup.php
+models:
+    aboutus_setup: { shortdesc: 'string:400', heading: 'string:400', subheading: 'string:400', longdesc: 'string:400', website: 'string:400', dob: 'string:400', published_at: 'nullable timestamp' }
+    Skill: { skill: 'string:400', score: Integer }
+    Resume: { category: 'string:400', title: 'string:400', year: 'string:400', ogname: 'string:400', workdesc: 'string:400', published_at: 'nullable timestamp' }
+    portfolio: { projectname: 'string:400', projectpic: 'string:400', projectlink: 'string:400' }
+    personal_setup: { profilepic: 'string:400', name: 'string:400', twitter: 'string:400', facebook: 'string:400', instagram: 'string:400', skype: 'string:400', linkedin: 'string:400', github: 'string:400', homewallpaper: 'string:400', professions: 'string:400', location: 'string:400', mobile: 'string:400', emailid: 'string:400' }
+    contact: { cname: 'string:400', cemail: 'string:400', csubject: 'string:400', cmessage: 'string:400' }
+    admin_users: { username: 'string:400', user_id: 'string:400', user_pass: 'string:400', user_access: bool }
+    userinfo: { userq: 'string:400', userv: 'string:400' }
+    Basic_setup: { title: 'string:400', description: 'string:400', keyword: 'string:400', icon: 'string:400' }
