@@ -43,3 +43,6 @@ return view('home',['BasicSetup'=>BasicSetup::first(),
 
 })->name('index');
 
+route::get('/test',function(){
+    return PersonalSetup::all()->toArray();
+});

@@ -14,7 +14,7 @@ class PersonalSetup extends Model
      *
      * @var array
      */
-    protected $table="personal_setup";
+    protected $table="personal_setups";
     protected $fillable = [
         'profilepic',
         'name',

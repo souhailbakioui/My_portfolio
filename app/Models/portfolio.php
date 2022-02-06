@@ -14,7 +14,7 @@ class Portfolio extends Model
      *
      * @var array
      */
-    protected $table="portfolio";
+    protected $table="portfolios";
 
     protected $fillable = [
         'projectname',

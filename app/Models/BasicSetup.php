@@ -14,7 +14,7 @@ class BasicSetup extends Model
      *
      * @var array
      */
-    protected $table='basic_setup';
+    protected $table='basic_setups';
     protected $fillable = [
         'title',
         'description',

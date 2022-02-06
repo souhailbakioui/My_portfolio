@@ -14,7 +14,7 @@ class AboutusSetup extends Model
      *
      * @var array
      */
-    protected $table="aboutus_setup";
+    protected $table="aboutus_setups";
     protected $fillable = [
         'shortdesc',
         'heading',

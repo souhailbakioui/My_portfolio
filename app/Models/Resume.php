@@ -14,7 +14,7 @@ class Resume extends Model
      *
      * @var array
      */
-    protected $table="resume";
+    protected $table="resumes";
     protected $fillable = [
         'category',
         'title',
